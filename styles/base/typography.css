@@ -1,5 +1,5 @@
 .title-text{
-    font-size: clamp(20rem,10vw,40rem); 
+    font-size: clamp(20rem,10vw,30rem); 
     word-break: keep-all;
     font-family: var(--tipo-principal);
     color: var(--color-2);
