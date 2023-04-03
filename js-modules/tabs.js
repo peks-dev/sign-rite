@@ -30,7 +30,7 @@ tabsItemsWrap.addEventListener('click',(e)=>{
             //Añadir estilos de Boton Activo
             e.target.classList.add('tabs__item--active')
             // Añadir texto
-            tabsContentBox.innerHTML = "esto esta caommo!!!"
+            tabsContentBox.innerHTML = "whether you need a sign or a small design for your car we can help you"
             //cambiar img de fondo
             tabsImg.style.background = "linear-gradient(to bottom, rgba(11,9,10, 1), rgba(11,9,10, 0.9), rgba(11,9,10,0)), url(../../assets/bg/signing.jpg)";
             tabsImg.style.backgroundSize = "cover";

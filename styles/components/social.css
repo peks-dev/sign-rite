@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: end;
     position: relative;
     width: 40%;
     min-height: 107.5rem;
     margin: -20% -20% 0 0;
+    padding-right: 5%;
     padding-bottom: 6rem;
 }
 .social::after{
@@ -24,6 +26,8 @@
     font-family: var(--tipo-principal);
     color: var(--color-2);
     font-size: 15rem;
+    font-size: clamp(15rem,9vw,25rem);
+    max-width: 150rem;
     text-align: left;
     line-height: normal;
     text-transform: uppercase;
@@ -33,14 +37,14 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 15rem;
     align-items: end;
     margin-top: 7.5rem;
     z-index: 2;
 }
 .social__icon{
-    width: 15rem;
-    height: 15rem;
+    width: clamp(15rem,10vw,30rem);
+    height: clamp(15rem,10vw,30rem);
 }
 .social__link{
     display: flex;
@@ -54,6 +58,7 @@
     font-family: var(--tipo-secundaria);
     color: var(--color-5);
     font-size: 10rem;
+    font-size: clamp(10rem,5vw,20rem);
 }
 .social__link:nth-child(1)::after{
     content: "Instagram";

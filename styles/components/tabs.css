@@ -15,7 +15,7 @@
 }
 .tabs__item{
     font-family: var(--tipo-principal);
-    font-size: clamp(15rem, 10vw,25rem);
+    font-size: clamp(15rem, 8vw,25rem);
     color: var(--color-5);
     line-height: normal;
     text-transform: uppercase;
@@ -39,7 +39,7 @@
 }
 .tabs__content-text{
     font-family: var(--tipo-secundaria);
-    font-size: clamp(10rem,10vw,20rem);
+    font-size: clamp(10rem,7vw,20rem);
     color: var(--color-5);
     line-height: normal;
     width: 90%;

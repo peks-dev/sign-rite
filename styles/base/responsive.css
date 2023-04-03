@@ -21,4 +21,13 @@
     .navbar__menu-links{
         display: flex;
     }
+    .form__step--one{
+        flex-direction: row;
+    }
+    .social{
+        margin: -10% -20% 0 0;
+    }
+    .social__links-wrap{
+        width: 60%;
+    }
 }
