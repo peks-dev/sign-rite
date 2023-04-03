@@ -1,0 +1,65 @@
+.tabs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 175rem;
+    height: 50%;
+}
+.tabs__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+    height: 20%;
+}
+.tabs__item{
+    font-family: var(--tipo-principal);
+    font-size: clamp(15rem, 10vw,25rem);
+    color: var(--color-5);
+    line-height: normal;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    text-align: center;
+}
+.tabs__content{
+    padding-top: 15rem;
+    height: 80%;
+    width: 100%;
+    background: 
+    linear-gradient(
+        to bottom, 
+        rgba(11,9,10, 100%), 
+        rgba(11,9,10, 90%),
+        rgba(11,9,10,0%)), 
+        url("./../../assets/bg/wrapping.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tabs__content-text{
+    font-family: var(--tipo-secundaria);
+    font-size: clamp(10rem,10vw,20rem);
+    color: var(--color-5);
+    line-height: normal;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Modificadores*/ 
+
+.tabs__item--active{
+    transform: scale(1.2);
+    color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+}
+.tabs__item--active::after{
+    content: "";
+    display: inline-block;
+    width: 70%;
+    height: 1.5rem;
+    background-color: var(--color-1);
+}

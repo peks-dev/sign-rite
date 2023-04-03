@@ -1,0 +1,41 @@
+.title-text{
+    font-size: clamp(20rem,10vw,80rem); 
+    word-break: keep-all;
+    font-family: var(--tipo-principal);
+    color: var(--color-2);
+    line-height: normal;
+    text-transform: uppercase;
+}
+.subtitle{
+    font-size: clamp(12rem,6vw,20rem);
+    word-break: keep-all;
+    font-family: var(--tipo-secundaria);
+    color: var(--color-5);
+    line-height: normal;
+    text-transform: uppercase;
+    width: 90%;
+}
+.body-text{
+    font-size: clamp(12rem,4vw,20rem);
+    word-break: keep-all;
+    font-family: var(--tipo-secundaria);
+    color: var(--color-5);
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* Modificadores*/
+.title-text--white{
+    color: var(--color-5);
+}
+.subtitle--small{
+    width: 70%;
+}
+.body-text--small{
+    font-size: clamp(10rem,4vw,15rem);
+}
+
+/* colores en el texto*/
+.color--red{
+    color: var(--color-2);
+}

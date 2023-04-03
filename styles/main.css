@@ -1,0 +1,24 @@
+/* Base */
+@import url(./base/reset.css);
+@import url(./base/typography.css);
+
+@import url(./base/animations.css);
+
+/* Layout*/
+@import url(./layout/section.css);
+@import url(./layout/headers.css);
+@import url(./layout/maps.css);
+
+/* components*/
+@import url(./components/nav-bar.css);
+@import url(./components/tabs.css);
+@import url(./components/carrusel.css);
+@import url(./components/gallery.css);
+@import url(./components/social.css);
+@import url(./components/accordeon.css);
+@import url(./components/form-step.css);
+@import url(./components/menu-hamburger.css);
+@import url(./components/icon-scroll.css);
+
+@import url(./base/responsive.css);
+

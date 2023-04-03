@@ -1,0 +1,69 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    width: 40%;
+    min-height: 107.5rem;
+    margin: -20% -20% 0 0;
+    padding-bottom: 6rem;
+}
+.social::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background-color: var(--color-1);
+    z-index: 1;
+}
+.social__header{
+    position: relative;
+    font-family: var(--tipo-principal);
+    color: var(--color-2);
+    font-size: 15rem;
+    text-align: left;
+    line-height: normal;
+    text-transform: uppercase;
+    z-index: 2;
+}
+.social__links-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: end;
+    margin-top: 7.5rem;
+    z-index: 2;
+}
+.social__icon{
+    width: 15rem;
+    height: 15rem;
+}
+.social__link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.social__link::after{
+    content: "Facebook";
+    font-family: var(--tipo-secundaria);
+    color: var(--color-5);
+    font-size: 10rem;
+}
+.social__link:nth-child(1)::after{
+    content: "Instagram";
+}
+
+/* modificadores*/
+.social__icon--navbar{
+    width: 25rem;
+    height: 25rem;
+}
+.social__icon--navbar:hover{
+    fill: var(--color-3);
+}

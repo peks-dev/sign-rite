@@ -1,0 +1,57 @@
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around;
+    height: 20rem;
+    width: 35rem;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+    color: var(--color-5);
+}
+.hamburger__line{
+    background-color: var(--color-2);
+    mix-blend-mode: difference;
+    height: 2rem;
+    transition: all .5s ease;
+}
+.hamburger__line--large{
+    width: 100%;
+}
+.hamburger__line--medium{
+    width: 60%;
+}
+.hamburger__line--small{
+    width: 30%;
+}
+
+/* modificadores*/
+.hamburger--active{
+    height: 20rem;
+    transform: translateX(5rem);
+}
+.hamburger--active:hover{
+    color: var(--color-3);
+    cursor: pointer;
+    transform: scale(1.2) translateX(5rem);
+}
+.hamburger--active > .hamburger__line{
+    background-color: var(--color-5);
+}
+
+.hamburger--active > .hamburger__line--medium{
+    width: 100%;
+    transform: rotate(60deg);
+}
+.hamburger--active > .hamburger__line--large{
+    transform: rotate(-60deg);
+}
+.hamburger--active > .hamburger__line--small{
+    display: none;
+}
+
+/* cambiar color del menu cerrar a negro*/
+.hamburger--active:hover .hamburger__line{
+    background-color: var(--color-3);
+}
