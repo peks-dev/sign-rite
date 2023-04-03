@@ -66,8 +66,8 @@
 
 /* modificadores*/
 .social__icon--navbar{
-    width: 25rem;
-    height: 25rem;
+    width: clamp(25rem,10vw,35rem);
+    height: clamp(25rem,10vw,35rem);
 }
 .social__icon--navbar:hover{
     fill: var(--color-3);

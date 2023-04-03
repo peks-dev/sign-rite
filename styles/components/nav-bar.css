@@ -60,7 +60,7 @@
   }
   .navbar__link-item a{
     font-family: var(--tipo-secundaria);
-    font-size: 16rem;
+    font-size: clamp(16rem,8vw,25rem);
     line-height: normal;
     text-transform: uppercase;
     transition: all .3s ease;
@@ -75,6 +75,7 @@
     align-items: center;
     justify-content: space-between;
     width: 40%;
+    max-width: 100rem;
     padding-top: 15%;
   }
 
