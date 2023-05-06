@@ -2,8 +2,8 @@
 
 /* Aquí definimos las Custom properties */
 @font-face{
-  font-family: "noize-sport";
-  src: url("../../fonts/NoizeSportFreeVertionRegular-MVwye.ttf");
+  font-family: "Helvetica-Neue";
+  src: url("../../fonts/HelveticaNeue-ExtBlackCondObl.otf");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   --color-5: #F5F3F4;
   --color-6: #FFFFFF;
   /* Tipografía */
-  --tipo-principal: noize-sport;
+  --tipo-principal: Helvetica-Neue;
   --tipo-secundaria: kanit;
   font-size: 2px;
 }

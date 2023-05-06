@@ -65,6 +65,9 @@
 }
 
 /* modificadores*/
+.social__header--white{
+    color: var(--color-5);
+}
 .social__icon--navbar{
     width: clamp(25rem,10vw,35rem);
     height: clamp(25rem,10vw,35rem);

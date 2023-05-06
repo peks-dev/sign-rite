@@ -1,0 +1,11 @@
+.customWrap-flow{
+    display: none;
+    background-color: var(--color-2);
+}
+.bussines-flow{
+    display: none;
+}
+
+.flow-active{
+    display: block;
+}

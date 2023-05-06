@@ -45,223 +45,321 @@
             </div> 
         </div>    
       </nav>  
-    <!-- section 1 -->
+    <!-- section welcome -->
     <header id="welcome" class="section section--welcome">
         <div class="welcome__titles-wrap">
-            <h1 class="title-text title-text--white">PREMIUM SIGNS & <span class="color--red">WRAPS</span></h1>
-            <p class="body-text">high quality  materials and precise installation techniques to enhance the appearance and protection of your premium car.</p>
+            <h1 class="title-text title-text--white">WRAPS & SIGNS</h1>
+            <p class="body-text">Select the one that best describes you</p>
+        </div>
+        <div class="form__step form__step--active">
+            <button class="form__label-step1">
+                <img class="form__img" src="./assets/bg/img-bussines.png" alt="bussines service">
+                <h4 class="form__img-text form__img-text--top">bussines</h4>
+                <div class="form__img-decoration form__img-decoration--left"></div>
+            </button>
+            <button class="form__label-step1">
+                <img class="form__img" src="./assets/bg/img-luxury-car.png" alt="">
+                <h4 class="form__img-text form__img-text--bottom">custom wrap</h4>
+                <div class="form__img-decoration form__img-decoration--right"></div>
+            </button>
         </div>
     </header>
-    <!-- section 2 -->
-    <section id="form-page" class="section section--row">
-        <div class="header-content">
-            <h2 id="form-title" class="title-text">need help?</h2>
-            <h3 class="form__instruction">which describes you best?</h3>
-        </div>
-        <form class="form" action="">
-            <!-- Paso 1 -->
-            <div class="form__step form__step--active">
-                <label class="form__label-step1" for="bussines-input">
-                    <img class="form__img" src="./assets/bg/img-bussines.png" alt="bussines service">
-                    <h4 class="form__img-text form__img-text--top">bussines</h4>
-                    <div class="form__img-decoration form__img-decoration--left"></div>
-                </label>
-                <input class="form__input--hide" id="bussines-input" type="radio" name="service-type" value="bussines">
-                <label class="form__label-step1" for="premium-car-input">
-                    <img class="form__img" src="./assets/bg/img-luxury-car.png" alt="">
-                    <h4 class="form__img-text form__img-text--bottom">premium car</h4>
-                    <div class="form__img-decoration form__img-decoration--right"></div>
-                </label>
-                <input class="form__input--hide" id="premium-car-input" type="radio" name="service-type" value="premium-car">
+    <div class="bussines-flow">
+        <!-- section services -->
+        <section id="services" class="section">
+            <div class="header-content header-content--rigth header--second">
+                <p class="subtitle">from full wraps to custom details</p>
             </div>
-            <!-- Paso 2 -->
-            <div class="form__step">
-                <h3 class="form__instruction">instructions for step 2</h3>
-                <div class="form__wrap-red">
-                    <input class="form__input" type="number" name="budget">
-                    <div class="form__wrap-buttons">
-                        <a class="form__button-next">next</a>
-                        <a class="form__button-prev">previous</a>
-                    </div>
+            <div class="tabs">
+                <ul class="tabs__header">
+                    <li class="tabs__item tabs__item--active">wraps</li>
+                    <li class="tabs__item">signs</li>
+                </ul>
+                <div id="tabs__content" class="tabs__content">
+                    <p class="tabs__content-text">We label fleets of vehicles, including cars, pickup trucks, vans, and even trailers.</p>
                 </div>
             </div>
-          
-            <!-- Paso 3 -->
-            <div class="form__step">
-                <h3 class="form__instruction">instructions for step 3</h3>
-                <div class="form__wrap-red">
-                    <input class="form__input" type="text" name="name">
-                    <div class="form__wrap-buttons">
-                        <a class="form__button-next">next</a>
-                        <a class="form__button-prev">previous</a>
-                    </div>
+        </section>
+        <!-- section gallery -->
+        <section class="section section--auto">
+            <div class="header-content">
+                <h2 class="title-text">our work</h2>
+            </div>
+            <div class="gallery-mansory">
+                <div class="gallery-mansory__imgs gutterless" id="gallery-imgs-container">  
                 </div>
+                <button id="gallery__show-more-button" class="btn">
+                    <p class="btn__text">show more</p>
+                </button>
             </div>
-          
-            <!-- Paso 4 -->
-            <div class="form__step">
-                <h3 class="form__instruction">instructions for step 4</h3>
-                <div class="form__wrap-red">
-                    <input class="form__input" type="email" name="email">
-                    <div class="form__wrap-buttons">
-                        <button class="form__button-send" disabled="true">send</button>
-                        <a class="form__button-prev">previous</a>
-                    </div>
-                </div>
+            <div class="lightbox">
+                    <button class="lightbox__button">
+                        <img class="icon icon--lightbox"src="https://img.icons8.com/ios-glyphs/30/null/delete-sign.png" alt="icono cerrar">
+                    </button>
+                    <picture class="lightbox__img">
+                        <img class="lightbox__img-item" src="" alt="vehicle wrap">
+                    </picture>
             </div>
-
-            <!-- Paso 5 -->
-            <div class="form__step">
-                <h3 class="form__done-title">done</h3>
-                <p class="body-text">The data was sent, it will be reviewed and we will contact you soon</p>
-                
+        </section>
+        <!-- section strategys -->
+        <section class="section section--auto">
+            <div class="header-content">
+                <h2 class="title-text">for any strategy</h2>
             </div>
-        </form>
-          
-    </section>
-    <!-- section 3 -->
-    <section id="services" class="section section--row">
-        <div class="header-content header-content--rigth header--second">
-            <h2 class="title-text">services</h2>
-            <p class="subtitle">from full wraps to custom details</p>
-        </div>
-        <div class="tabs">
-            <ul class="tabs__header">
-                <li class="tabs__item tabs__item--active">wraps</li>
-                <li class="tabs__item">signs</li>
-            </ul>
-            <div id="tabs__content" class="tabs__content">
-                <p class="tabs__content-text">for people who want to protect their high-end car, or for companies who want their fleet of cars with a uniform design</p>
+            <div class="cardsSlider__wrap">
+                <ul class="cardsSlider">
+                    <li class="cardsSlider__item">
+                        <img class="cardsSlider__img" src="./assets/svgs/cards/incrementar.svg" alt="">
+                        <p class="cardsSlider__text">Increase the visibility of the company</p>
+                    </li>
+                    <li class="cardsSlider__item">
+                        <img class="cardsSlider__img" src="./assets/svgs/cards/distintivo.svg" alt="">
+                        <p class="cardsSlider__text">Improve brand recognition</p>
+                    </li>
+                    <li class="cardsSlider__item">
+                        <img class="cardsSlider__img" src="./assets/svgs/cards/credibilidad..svg" alt="">
+                        <p class="cardsSlider__text">Increase credibility and professionalism</p>
+                    </li>
+                    <li class="cardsSlider__item">
+                        <img class="cardsSlider__img" src="./assets/svgs/cards/diferenciacion.svg" alt="">
+                        <p class="cardsSlider__text">Differentiate from the competition</p>
+                    </li>
+                    <li class="cardsSlider__item">
+                        <img class="cardsSlider__img" src="./assets/svgs/cards/proteger.svg" alt="">
+                        <p class="cardsSlider__text">Protect the company's vehicles</p>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </section>
-    <!-- section 4 -->
-    <section id="brands" class="section section--auto">
-        <div class="header-content">
-            <h2 class="title-text">top brands</h2>
-            <p class="body-text body-text--subtitle">we use only the best</p>
-        </div>
-        <ul class="carrusel">
-            <li class="carrusel__item">
-                <img src="./assets/logos/brands/3m-logo.png" alt="3m logo">
-            </li>
-            <li class="carrusel__item">
-                <img src="./assets/logos/brands/dennison-logo.png" alt="dennison logo">
-            </li>
-            <li class="carrusel__item">
-                <img src="./assets/logos/brands/hexis-logo.png" alt="hexis logo">
-            </li>
-            <li class="carrusel__item">
-                <img src="./assets/logos/brands/vivid-logo.png" alt="vivid logo">
-            </li>
-        </ul>
-    </section>
-    <!-- section 5 -->
-    <section id="gallery" class="section section--row">
-        <div class="header-content">
-            <h2 class="title-text">our work</h2>
-            <p class="subtitle">the power of high-quality wrap</p>
-        </div>
-        <ul class="gallery">
-            <li class="gallery__item">
-                <img src="./assets/gallery/ferrari-car.jpg" alt="ferrari car" class="gallery__img">
-                <h3 class="gallery__text">ferrari</h3>
-            </li>
-            <li class="gallery__item">
-                <img src="./assets/gallery/corvette-car.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__text">corvette</h3>
-            </li>
-            <li class="gallery__item">
-                <img src="./assets/bg/lambo-wrap.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__text">lamborguini</h3>
-            </li>
-            <li class="gallery__item">
-                <img src="./assets/bg/porshe-garaje.jpg" alt="" class="gallery__img">
-                <h3 class="gallery__text">porshe</h3>
-            </li>
-        </ul>
-        <img class="icon-scroll" src="./assets/svgs/scroll-horizontal.svg" alt="">
-    </section>
-    <!-- section 6 -->
-    <section id="contact" class="section">
-        <div class="header-content">
-            <h2 class="title-text">contact</h2>
-            <p class="body-text body-text--subtitle">¿ready for the next step</p>
-        </div>
-        <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6548.040938097052!2d-85.2641214!3d34.855713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88606a1b505bb5fb%3A0xc1b0149165d9219f!2sSign-Rite%20Inc!5e0!3m2!1ses-419!2smx!4v1680213660028!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="social">
-            <h3 class="social__header">social links</h3>
-            <ul class="social__links-wrap">
-                <li class="social__link">
-                    <a href="">
-                        <img class="social__icon" src="./assets/svgs/instagram-icon.svg" alt="instagram icon">
-                    </a>
+        </section>
+        <!-- section faqs -->
+        <section id="faqs" class="section">
+            <div class="header-content">
+                <h2 class="title-text">faqs</h2>
+                <p class="body-text body-text-subtitle">Here you will find the answers you need.</p>
+            </div>
+            <ul class="accordeon">
+                <li class="accordeon__item accordeon__item--active">
+                    <h3 class="accordeon__question">
+                        question 1
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, minus.
+                    </p>
                 </li>
-                <li class="social__link">
-                    <a href="">
-                        <img class="social__icon" src="./assets/svgs/facebook-icon.svg" alt="facebook icon">
-                    </a>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 2
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aut.
+                    </p>
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 3
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, at.
+                    </p>
+                    
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 4
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, maiores!.
+                    </p>
+                    
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 5
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, quod.
+                    </p>
                 </li>
             </ul>
-        </div>
-    </section>
-    <!-- section 7 -->
-    <section id="faqs" class="section">
-        <div class="header-content">
-            <h2 class="title-text">faqs</h2>
-            <p class="body-text body-text-subtitle">Here you will find the answers you need.</p>
-        </div>
-        <ul class="accordeon">
-            <li class="accordeon__item accordeon__item--active">
-                <h3 class="accordeon__question">
-                    question 1
-                    <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
-                </h3>
-                <p class="accordeon__answere">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, minus.
-                </p>
-            </li>
-            <li class="accordeon__item">
-                <h3 class="accordeon__question">
-                    question 2
-                    <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
-                </h3>
-                <p class="accordeon__answere">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aut.
-                </p>
-            </li>
-            <li class="accordeon__item">
-                <h3 class="accordeon__question">
-                    question 3
-                    <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
-                </h3>
-                <p class="accordeon__answere">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, at.
-                </p>
-                
-            </li>
-            <li class="accordeon__item">
-                <h3 class="accordeon__question">
-                    question 4
-                    <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
-                </h3>
-                <p class="accordeon__answere">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, maiores!.
-                </p>
-                
-            </li>
-            <li class="accordeon__item">
-                <h3 class="accordeon__question">
-                    question 5
-                    <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
-                </h3>
-                <p class="accordeon__answere">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, quod.
-                </p>
-            </li>
-        </ul>
-    </section>
+        </section>
+        <!-- section brands -->
+        <section id="brands" class="section section--auto">
+            <div class="header-content">
+                <p class="body-text body-text--subtitle">we use only the best</p>
+            </div>
+            <ul class="carrusel">
+                <li class="carrusel__item">
+                    <img src="./assets/logos/brands/3m-logo.png" alt="3m logo">
+                </li>
+                <li class="carrusel__item">
+                    <img src="./assets/logos/brands/arlon-logo.png" alt="arlon logo">
+                </li>
+                <li class="carrusel__item">
+                    <img src="./assets/logos/brands/orafol-logo.png" alt="orafol logo">
+                </li>
+                <li class="carrusel__item">
+                    <img src="./assets/logos/brands/Xpel_Sprite.svg" alt="xpel logo">
+                </li>
+            </ul>
+        </section>
+        <!-- section contact -->
+        <section id="contact" class="section">
+            <div class="header-content">
+                <h2 class="title-text">contact</h2>
+                <p class="body-text body-text--subtitle">¿ready for the next step</p>
+            </div>
+            <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6548.040938097052!2d-85.2641214!3d34.855713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88606a1b505bb5fb%3A0xc1b0149165d9219f!2sSign-Rite%20Inc!5e0!3m2!1ses-419!2smx!4v1680213660028!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="social">
+                <h3 class="social__header">social links</h3>
+                <ul class="social__links-wrap">
+                    <li class="social__link">
+                        <a href="">
+                            <img class="social__icon" src="./assets/svgs/instagram-icon.svg" alt="instagram icon">
+                        </a>
+                    </li>
+                    <li class="social__link">
+                        <a href="">
+                            <img class="social__icon" src="./assets/svgs/facebook-icon.svg" alt="facebook icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="customWrap-flow">
+        <!-- section slider comp -->
+        <section class="section">
+            <div class="header-content">
+                <h2 class="title-text title-text--white">give your vehicle a unique touch</h2>
+            </div>
+            <!-- image comparision slider  -->
+            <div id="comparision">
+                <div class="comparision__wrap">
+                  <img class="comparision__img" src="./assets/after-before/before-white-truck-pro.png">
+                  <img class="comparision__img" id="img-1" src="./assets/after-before/after-white-truck-pro.png">
+                  <input class="comparision__slider" type="range" min="0" max="100" value="50" step="0.1" id="comparision-input">
+                </div>
+            </div>
+            <p class="body-text">Our team of experts in car labeling will work with you to create a unique design that reflects your tastes and needs. </p>
+        </section>
+         <!-- section gallery-slider -->
+        <section id="gallery" class="section section--row">
+            <div class="header-content">
+                <h2 class="title-text title-text--white">our work</h2>
+                <p class="subtitle">the power of high-quality wrap</p>
+            </div>
+            <ul class="gallery">
+                <li class="gallery__item">
+                    <img src="./assets/gallery/ferrari-car.jpg" alt="ferrari car" class="gallery__img">
+                    <h3 class="gallery__text">ferrari</h3>
+                </li>
+                <li class="gallery__item">
+                    <img src="./assets/gallery/corvette-car.jpg" alt="" class="gallery__img">
+                    <h3 class="gallery__text">corvette</h3>
+                </li>
+                <li class="gallery__item">
+                    <img src="./assets/bg/lambo-wrap.jpg" alt="" class="gallery__img">
+                    <h3 class="gallery__text">lamborguini</h3>
+                </li>
+                <li class="gallery__item">
+                    <img src="./assets/bg/porshe-garaje.jpg" alt="" class="gallery__img">
+                    <h3 class="gallery__text">porshe</h3>
+                </li>
+            </ul>
+        </section>
+         <!-- section faqs -->
+         <section id="faqs" class="section">
+            <div class="header-content">
+                <h2 class="title-text title-text--white">faqs</h2>
+                <p class="body-text body-text-subtitle">Here you will find the answers you need.</p>
+            </div>
+            <ul class="accordeon">
+                <li class="accordeon__item accordeon__item--active">
+                    <h3 class="accordeon__question">
+                        question 1
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis, minus.
+                    </p>
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 2
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, aut.
+                    </p>
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 3
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, at.
+                    </p>
+                    
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 4
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, maiores!.
+                    </p>
+                    
+                </li>
+                <li class="accordeon__item">
+                    <h3 class="accordeon__question">
+                        question 5
+                        <img class="accordeon__icon" src="./assets/svgs/cruz-icon.svg" alt="accordeon icon">
+                    </h3>
+                    <p class="accordeon__answere">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, quod.
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <!-- section contact -->
+        <section id="contact" class="section">
+            <div class="header-content">
+                <h2 class="title-text title-text--white">contact</h2>
+                <p class="body-text body-text--subtitle">¿ready for the next step</p>
+            </div>
+            <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6548.040938097052!2d-85.2641214!3d34.855713!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88606a1b505bb5fb%3A0xc1b0149165d9219f!2sSign-Rite%20Inc!5e0!3m2!1ses-419!2smx!4v1680213660028!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="social">
+                <h3 class="social__header social__header--white">social links</h3>
+                <ul class="social__links-wrap">
+                    <li class="social__link">
+                        <a href="">
+                            <img class="social__icon" src="./assets/svgs/instagram-icon.svg" alt="instagram icon">
+                        </a>
+                    </li>
+                    <li class="social__link">
+                        <a href="">
+                            <img class="social__icon" src="./assets/svgs/facebook-icon.svg" alt="facebook icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+      
 </main>
+<button id="close-btn" class="form__label-step1 flow-close-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path fill="#FFF" d="M17.657 6.343l-11 11c-.391.391-1.023.391-1.414 0s-.391-1.023 0-1.414l11-11c.391-.391 1.023-.391 1.414 0s.391 1.023 0 1.414z"/>
+      <path fill="#FFF" d="M6.343 6.343l11 11c.391.391.391 1.023 0 1.414s-1.023.391-1.414 0l-11-11c-.391-.391-.391-1.023 0-1.414s1.023-.391 1.414 0z"/>
+    </svg>
+  </button>
     <script type="module" src="./main.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15rem;
+}
+.btn__text{
+    font-family: var(--tipo-principal);
+    font-size: 12rem;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-5);
+}
+.btn:hover .btn__text{
+    color: var(--color-1);
+  
+}
+.btn:active .btn__text {
+    color: var(--color-2);
+    transform: scale(1.1);
+  
+}
+#close-btn{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-5);
+    padding: 1.5rem;
+    z-index: 6;
+}
+
+#close-btn path{
+    fill: black;
+}

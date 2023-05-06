@@ -21,26 +21,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-end;
 }
 .section--welcome{
     background:
     linear-gradient(
         to bottom, 
-        rgba(11,9,10, 20%), 
-        rgba(11,9,10, 60%),
+        rgba(11,9,10, 20%),
+        rgba(11,9,10, 100%),
+        rgba(11,9,10, 100%),
         rgba(11,9,10,100%)), 
-        url("./../../assets/bg/lambo-wrap-mobile.jpg");
+        url("./../../assets/bg/lambo-wrap.jpg");
     background-position: top;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    gap: 15rem;
+    padding-bottom: 10%;
 }
 .welcome__titles-wrap{
     display: flex;
     flex-direction: column;
-    gap: 12.5rem;
+    justify-content: space-between;
     text-align: center;
-    width: 90%;
-    margin-top: 70rem;
+    width: 80%;
 }
 
 

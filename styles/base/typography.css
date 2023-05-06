@@ -16,12 +16,12 @@
     width: 90%;
 }
 .body-text{
-    font-size: clamp(12rem,4vw,20rem);
+    font-size: clamp(12rem,3vw,20rem);
     word-break: keep-all;
     font-family: var(--tipo-secundaria);
     color: var(--color-5);
     line-height: normal;
-    text-transform: capitalize;
+    text-transform: initial;
 }
 
 /* Modificadores*/
@@ -34,6 +34,7 @@
 .body-text--small{
     font-size: clamp(10rem,4vw,15rem);
 }
+
 
 /* colores en el texto*/
 .color--red{

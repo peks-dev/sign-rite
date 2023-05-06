@@ -1,6 +1,8 @@
 /* Base */
 @import url(./base/reset.css);
 @import url(./base/typography.css);
+@import url(./base/button.css);
+
 
 @import url(./base/animations.css);
 
@@ -19,6 +21,12 @@
 @import url(./components/form-step.css);
 @import url(./components/menu-hamburger.css);
 @import url(./components/icon-scroll.css);
+@import url(./components/cardSlider.css);
+@import url(./components/gallery-mansory.css);
+@import url(./components/ligthbox.css);
+@import url(./components/sliderComp.css);
+@import url(./components/userFlow.css);
+
 
 @import url(./base/responsive.css);
 
