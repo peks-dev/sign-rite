@@ -9,7 +9,7 @@
     height: 67.5vmin;
     position: relative;
     overflow: hidden;
-    background-color: rebeccapurple;
+    background: radial-gradient(rgba(102, 7, 8, 0.9), rgba(102, 7, 8, 0.3), rgba(102, 7, 8, 0.1));
 }
 .comparision__img{
     width: 100%;

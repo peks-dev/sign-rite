@@ -23,6 +23,7 @@
     text-align: right;
     align-self: flex-end;
     margin-right: 10%;
+    text-align: left;
     transition: .5s ease all;
     transform: translateY(-100%);
     position: relative;
@@ -59,4 +60,8 @@
 }
 .accordeon__item--active .accordeon__icon{
     transform:rotate(40deg)
+}
+/* modificadores */
+.accordeon__question--black{
+    background-color: var(--color-3);
 }

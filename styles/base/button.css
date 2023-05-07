@@ -24,12 +24,13 @@
   
 }
 #close-btn{
+    display: none;
     position: fixed;
     bottom: 5%;
     right: 5%;
-    width: 25px;
-    height: 25px;
-    background-color: var(--color-5);
+    width: 25rem;
+    height: 25rem;
+    background-color: var(--color-6);
     padding: 1.5rem;
     z-index: 6;
 }

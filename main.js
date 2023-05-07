@@ -17,27 +17,7 @@ function slide() {
     document.getElementById("comparision-input").addEventListener("input", slide);
   });
 
-  const bussinesFlow = document.querySelector('.bussines-flow');
-  const customWrapFlow = document.querySelector('.customWrap-flow');
-  const formLabelStep1 = document.querySelectorAll('.form__label-step1');
-  const closeButton = document.getElementById('close-btn');
   
-  formLabelStep1.forEach((button, index) => {
-    button.addEventListener('click', () => {
-      if (index === 0) {
-        bussinesFlow.classList.add('flow-active');
-       
-      } else if (index === 1) {
-        customWrapFlow.classList.add('flow-active');
-       
-      }
-    });
-  });
-  
-  closeButton.addEventListener('click', () => {
-    bussinesFlow.classList.remove('flow-active');
-    customWrapFlow.classList.remove('flow-active');
-  })
 
 
 

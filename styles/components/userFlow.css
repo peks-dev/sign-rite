@@ -1,11 +1,14 @@
 .customWrap-flow{
     display: none;
-    background-color: var(--color-2);
+    background-color: var(--color-1);
 }
 .bussines-flow{
     display: none;
 }
 
-.flow-active{
+.show{
     display: block;
+}
+.hide{
+    display: none;
 }
