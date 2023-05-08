@@ -6,7 +6,7 @@
 .cardsSlider{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     gap: 20rem;
     width: auto;
     height: 100%;
