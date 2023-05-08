@@ -2,8 +2,10 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 150rem;
-    height: 40%;
+    max-width: 325rem;
+    min-height: 250rem;
+    height: 50%;
+    max-height: 450rem;
 }
 .tabs__header{
     display: flex;
@@ -39,7 +41,7 @@
 }
 .tabs__content-text{
     font-family: var(--tipo-secundaria);
-    font-size: clamp(10rem,5vw,20rem);
+    font-size: clamp(10rem,4vw,18rem);
     color: var(--color-5);
     line-height: normal;
     width: 90%;
@@ -62,4 +64,12 @@
     width: 70%;
     height: 1.5rem;
     background-color: var(--color-1);
+}
+
+@media screen and (min-width: 1279px){
+
+    .tabs{
+        order: 1;
+    }
+
 }

@@ -1,9 +1,11 @@
 .customWrap-flow{
     display: none;
     background-color: var(--color-1);
+    padding-top: 15%;
 }
 .bussines-flow{
     display: none;
+    padding-top: 10%;
 }
 
 .show{

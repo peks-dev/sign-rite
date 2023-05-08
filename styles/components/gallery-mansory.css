@@ -4,6 +4,7 @@
 .gallery-mansory{
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 8%;
 }
 .gutterless{
     column-gap: 5rem;

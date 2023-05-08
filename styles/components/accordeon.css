@@ -17,7 +17,7 @@
     height: 0;
     width: 80%;
     font-family: var(--tipo-secundaria);
-    font-size: clamp(10rem,6vw,15rem);
+    font-size: clamp(10rem,4vw,13rem);
     line-height: normal;
     color: var(--color-5);
     text-align: right;

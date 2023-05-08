@@ -29,3 +29,9 @@
     background-size: cover;
     background-position: center;
 }
+/* responsive*/
+@media screen and (min-width: 1279px){ 
+    .section--column{
+        flex-direction: row;
+    }
+}

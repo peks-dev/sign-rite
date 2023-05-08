@@ -1,16 +1,13 @@
 /* Global settigns */
- .form{
-    width: 100%;
-    max-width: 285rem;
-    height: 70%;
- } 
 .form__step{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 90%;
-    height: 45%;
+    min-height: 190rem;
+    height: 30%;
+    max-height: 200rem;
 }
 .form__instruction{
     font-family: var(--tipo-secundaria);
@@ -79,8 +76,7 @@
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 40%;
-    margin: 10rem 0;
+    height: 100%;
 }
 
 .form__img{
@@ -88,12 +84,13 @@
     width: 90%;
     z-index: 2;
     filter: brightness(0.8);
+    cursor: pointer;
 }
 .form__img-text{
     position: absolute;
     z-index: 3;
     font-family: var(--tipo-principal);
-    font-size: 15rem;
+    font-size: clamp(15rem,4vw,20rem);
     color: var(--color-5);
     line-height: normal;
     text-transform: uppercase;
@@ -101,22 +98,20 @@
 .form__img-decoration{
     display: inline-block;
     position: absolute;
-    top: 0;
     width: 20%;
     height: 100%;
     max-height: 157rem;
     background-color: var(--color-1);
     z-index: 1;
-    transform: scaleY(1.2);
 }
 
 /* modificadores steep 1*/
 .form__img-text--top{
-    top: 0%;
+    top: 20%;
     left: 10%;
 }
 .form__img-text--bottom{
-    bottom: 0%;
+    bottom: 20%;
     right: 10%;
 
 }
@@ -127,7 +122,8 @@
     right:0;
 }
 
-@media screen and (min-width: 1281px){ 
+/* responsive*/
+@media screen and (min-width: 834px){ 
     .form__step{
         flex-direction: row;
     }

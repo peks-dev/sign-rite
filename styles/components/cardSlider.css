@@ -6,22 +6,23 @@
 .cardsSlider{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: center;
     gap: 20rem;
-    width: 830rem;
+    width: auto;
     height: 100%;
-    padding-left: 5%;
+    padding: 0 5%;
     
 
 }
 .cardsSlider__item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     gap: 10rem;
     align-items: center;
-    width: 145rem;
-    height: 100%;
+    min-width: 145rem;
+    max-width: 155rem;
+    min-height: 110rem;
     background-color: var(--color-5);
     color: var(--color-4);
     padding: 10rem 0;
@@ -40,16 +41,23 @@
 .cardsSlider__img{
     width: 45rem;
     height: 45rem;
-    fill: var(--color-5);
+}
+.cardsSlider__title{
+    font-family: var(--tipo-principal);
+    font-size: 15rem;
+    color: var(--color-5);
+    line-height: normal;
 }
 .cardsSlider__text{
     width: 80%;
     font-family: var(--tipo-secundaria);
-    font-size: clamp(10rem,5vw,18rem);
+    font-size: clamp(10rem,5vw,15rem);
     text-transform: uppercase;
     line-height: normal;
     text-align: center;
 }
+
+/* modificadores*/
 
 .cardsSlider__item--black{
     background-color: var(--color-3);
@@ -58,3 +66,7 @@
 .cardsSlider__icon--white{
     fill: var(--color-5);
   }
+.cardsSlider__text--small{
+    text-transform: initial;
+    font-size: clamp(10rem,3vw,12rem)
+}
