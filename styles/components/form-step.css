@@ -9,8 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    max-width: 300rem;
+    width: 90%;
     height: 45%;
 }
 .form__instruction{
@@ -127,3 +126,10 @@
 .form__img-decoration--right{
     right:0;
 }
+
+@media screen and (min-width: 1281px){ 
+    .form__step{
+        flex-direction: row;
+    }
+}
+  

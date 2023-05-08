@@ -65,6 +65,9 @@
 }
 
 /* modificadores*/
+.social__header--black{
+    color: var(--color-3);
+}
 .social__header--white{
     color: var(--color-5);
 }

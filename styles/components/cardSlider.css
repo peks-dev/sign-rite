@@ -1,6 +1,6 @@
 .cardsSlider__wrap{
     width: 100%;
-    height: 100rem;
+    height: auto;
     overflow: scroll;
 }
 .cardsSlider{
@@ -17,22 +17,44 @@
 .cardsSlider__item{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10rem;
     align-items: center;
     width: 145rem;
     height: 100%;
     background-color: var(--color-5);
+    color: var(--color-4);
+    padding: 10rem 0;
 }
+.cardsSlider__icon-wrap{
+    width: 45rem;
+    height: 45rem;
+  }
+  
+  .cardsSlider__icon{
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--color-3);
+  }
 .cardsSlider__img{
     width: 45rem;
     height: 45rem;
+    fill: var(--color-5);
 }
 .cardsSlider__text{
     width: 80%;
     font-family: var(--tipo-secundaria);
     font-size: clamp(10rem,5vw,18rem);
     text-transform: uppercase;
-    color: var(--color-4);
     line-height: normal;
     text-align: center;
 }
+
+.cardsSlider__item--black{
+    background-color: var(--color-3);
+    color: var(--color-5);
+}
+.cardsSlider__icon--white{
+    fill: var(--color-5);
+  }
