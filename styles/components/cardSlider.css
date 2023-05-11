@@ -32,7 +32,7 @@
     height: 45rem;
   }
   
-  .cardsSlider__icon{
+.cardsSlider__icon{
     display: block;
     width: 100%;
     height: 100%;
@@ -51,7 +51,7 @@
 .cardsSlider__text{
     width: 80%;
     font-family: var(--tipo-secundaria);
-    font-size: clamp(10rem,5vw,15rem);
+    font-size: clamp(10rem,4vw,12rem);
     text-transform: uppercase;
     line-height: normal;
     text-align: center;
@@ -69,4 +69,13 @@
 .cardsSlider__text--small{
     text-transform: initial;
     font-size: clamp(10rem,3vw,12rem)
+}
+
+@media screen and (min-width: 1279px){
+    .cardsSlider__wrap{
+        overflow:hidden;
+    }
+    .cardsSlider{
+        justify-content: center;
+    }
 }

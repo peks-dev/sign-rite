@@ -25,8 +25,9 @@
     width: 67px;
     height: 70px;
   }
-  .navbar__img{
-    object-fit: contain;
+  .navbar__logo{
+    fill: var(--color-2);
+    transition: all .6s ease-in-out;
   }
   .navbar__menu-wrap{
     display: flex;
@@ -79,8 +80,9 @@
   }
 
  
-  
-  
-  /* Estilos para el contenido de la página */
+/* Modificadores*/
+.navbar__logo--white{
+  fill: var(--color-5);
+}
   
   
