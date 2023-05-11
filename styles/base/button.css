@@ -32,8 +32,13 @@
     height: 25rem;
     background-color: var(--color-6);
     padding: 1.5rem;
-    z-index: 6;
+    cursor: pointer;
+    z-index: 5;
 }
+#close-btn:hover{
+    transform: scale(1.2);
+}
+
 
 #close-btn path{
     fill: black;
