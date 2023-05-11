@@ -13,11 +13,10 @@
 /* Modificadores */
 .section--auto{
     height: auto;
-    padding: 5% 0;
 }
-
-
-
+.section--sliderComp{
+    gap: 0rem;
+}
 #gallery{
     background:
     linear-gradient(
